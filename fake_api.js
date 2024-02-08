@@ -17,7 +17,6 @@ app.all('*',function(req, res, next)
     next();
 });
 
-app.use(json());
 
 //data storage
 let data = [
